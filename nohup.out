@@ -1,0 +1,18 @@
+
+> comment@0.0.0 start /opt/bitnami/apache2/htdocs/CS360/lab9/comment
+> node ./bin/www
+
+[0mGET / [32m200 [0m9.037 ms - 1599[0m
+[0mGET /javascripts/app.js [32m200 [0m2.572 ms - 1707[0m
+[0mGET /comments [32m200 [0m21.278 ms - 522[0m
+[0mGET /favicon.ico [33m404 [0m372.555 ms - 1978[0m
+[0mGET / [36m304 [0m1.208 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.614 ms - -[0m
+[0mGET /comments [36m304 [0m5.788 ms - -[0m
+[0mPUT /comments/56e99d319eb146dd2c008c00/downvote [32m200 [0m17.088 ms - 70[0m
+[0mPUT /comments/56e99d4b9eb146dd2c008c01/upvote [32m200 [0m3.326 ms - 69[0m
+[0mPUT /comments/56e99d319eb146dd2c008c00/upvote [32m200 [0m2.361 ms - 69[0m
+[0mPUT /comments/56e99d4b9eb146dd2c008c01/downvote [32m200 [0m2.634 ms - 69[0m
+[0mGET / [36m304 [0m0.472 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.223 ms - -[0m
+[0mGET /comments [36m304 [0m3.874 ms - -[0m
